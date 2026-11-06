@@ -8,6 +8,8 @@ students = [
 
 
 def average_score(data):
+    if len(data) == 0:
+        return 0  # Corrective maintenance: avoid ZeroDivisionError on an empty list
     total = 0
     for d in data:
         total += d["score"]

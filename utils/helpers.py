@@ -1,4 +1,6 @@
 def highest_score(data):
+    if not data:
+        return None  # Corrective maintenance: avoid IndexError on an empty list
     best = data[0]
     for d in data:
         if d["score"] > best["score"]:
@@ -7,6 +9,8 @@ def highest_score(data):
 
 
 def lowest_score(data):
+    if not data:
+        return None  # Corrective maintenance: avoid IndexError on an empty list
     worst = data[0]
     for d in data:
         if d["score"] < worst["score"]:
