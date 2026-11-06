@@ -1,3 +1,4 @@
+import statistics
 from typing import TypedDict
 
 
@@ -36,6 +37,13 @@ def average_score(data: StudentList) -> float:
     for d in data:
         total += d["score"]
     return total / len(data)
+
+
+def median_score(data: StudentList) -> float:
+    # Perfective maintenance: extra statistic
+    if not data:
+        return 0
+    return statistics.median(d["score"] for d in data)
 
 
 def add_student(name: str, score: float) -> None:
