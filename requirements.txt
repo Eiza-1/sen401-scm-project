@@ -1,2 +1,2 @@
-# v1.0 uses only the Python standard library.
-# Dependencies added in later versions will be listed here.
+# Requires Python 3.12 or later (uses the PEP 695 "type" statement).
+# v1.1 uses only the Python standard library - no third-party packages.

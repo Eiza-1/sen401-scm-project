@@ -27,7 +27,7 @@ sen401-scm-project/
 
 ## Requirements
 
-- Python 3.10 or later
+- Python 3.12 or later
 
 ## How to Run
 
