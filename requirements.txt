@@ -1,0 +1,2 @@
+# v1.0 uses only the Python standard library.
+# Dependencies added in later versions will be listed here.
